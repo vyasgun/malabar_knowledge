@@ -1,0 +1,48 @@
+created_by: gunjanv20
+version: 3
+domain: animals
+seed_examples:
+  - context: |
+      The **Malabar pit viper** (*Craspedocephalus malabaricus*) is a venomous pit viper species
+      endemic to the Western Ghats of southwestern India. It inhabits moist forests,
+      particularly near streams and waterfalls. It is a relatively small snake,
+      usually growing to about 2 to 2.5 feet in length.
+      The Malabar pit viper displays a wide range of color morphs, including green,
+      brown, yellow, and even reddish hues, often with complex patterns that help
+      in camouflage. It has a broad, triangular head, vertical pupils, and heat-sensing
+      pit organs located between the eyes and nostrils, which are used to detect
+      warm-blooded prey.
+      These vipers are ambush predators that feed on frogs, lizards, birds,
+      and small mammals. They are nocturnal and rely heavily on their camouflage
+      and heat-sensing ability to hunt. Though venomous, they are generally shy
+      and not aggressive toward humans unless provoked.
+      The Malabar pit viper is ovoviviparous, meaning females give birth to
+      live young rather than laying eggs. Its venom is hemotoxic, affecting blood
+      and tissues, but bites are rarely fatal with prompt medical treatment.
+    questions_and_answers:
+      - question: What is the scientific name of the Malabar pit viper?
+        answer: The scientific name of the Malabar pit viper is Craspedocephalus malabaricus.
+      - question: Where is the Malabar pit viper found?
+        answer: It is endemic to the Western Ghats of southwestern India.
+      - question: What kind of habitat does the Malabar pit viper prefer?
+        answer: The Malabar pit viper prefers moist forested areas, particularly near streams and waterfalls.
+      - question: What does the Malabar pit viper eat?
+        answer: It feeds on frogs, lizards, birds, and small mammals.
+      - question: Is the Malabar pit viper venomous?
+        answer: Yes, it is venomous and has hemotoxic venom.
+      - question: How does the Malabar pit viper hunt its prey?
+        answer: It is an ambush predator that uses its camouflage and heat-sensing pit organs to locate prey.
+      - question: Is the Malabar pit viper dangerous to humans?
+        answer: It is venomous but not aggressive. Bites are rarely fatal with medical care.
+      - question: How does the Malabar pit viper reproduce?
+        answer: It is ovoviviparous, meaning it gives birth to live young.
+      - question: What are the identifying features of the Malabar pit viper?
+        answer: |
+          It has a broad, triangular head, vertical pupils, heat-sensing pits, and comes in various colors such
+          as green, brown, and yellow.
+document_outline: |
+  Information about the Malabar pit viper including habitat, appearance, diet, behavior,
+  reproduction, and venom.
+  document:
+  repo: [https://github.com/gunjanv20/malabar\_knowledge](https://github.com/gunjanv20/malabar_knowledge)
+  commit: abcdef1234567890deadbeefcafebabe12345678
