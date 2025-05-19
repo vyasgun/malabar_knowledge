@@ -1,4 +1,4 @@
-created_by: gunjanv20
+created_by: vyasgun
 version: 3
 domain: animals
 seed_examples:
@@ -44,5 +44,5 @@ document_outline: |
   Information about the Malabar pit viper including habitat, appearance, diet, behavior,
   reproduction, and venom.
   document:
-  repo: [https://github.com/gunjanv20/malabar\_knowledge](https://github.com/gunjanv20/malabar_knowledge)
-  commit: abcdef1234567890deadbeefcafebabe12345678
+  repo: [https://github.com/vyasgun/malabar_knowledge](https://github.com/vyasgun/malabar_knowledge)
+  commit: 915cea3e12d6545dfec2f1c117eb402312ddb059
