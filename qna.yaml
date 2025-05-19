@@ -1,48 +1,56 @@
 created_by: vyasgun
 version: 3
 domain: animals
+document_outline: |
+  Overview of the Malabar pit viper's habitat, appearance, behavior, hunting, reproduction, and venom.
+document:
+  repo: https://github.com/vyasgun/malabar_knowledge
+  commit: 915cea3e12d6545dfec2f1c117eb402312ddb059
+  patterns:
+    - "*.md"
 seed_examples:
   - context: |
-      The **Malabar pit viper** (*Craspedocephalus malabaricus*) is a venomous pit viper species
-      endemic to the Western Ghats of southwestern India. It inhabits moist forests,
-      particularly near streams and waterfalls. It is a relatively small snake,
-      usually growing to about 2 to 2.5 feet in length.
-      The Malabar pit viper displays a wide range of color morphs, including green,
-      brown, yellow, and even reddish hues, often with complex patterns that help
-      in camouflage. It has a broad, triangular head, vertical pupils, and heat-sensing
-      pit organs located between the eyes and nostrils, which are used to detect
-      warm-blooded prey.
-      These vipers are ambush predators that feed on frogs, lizards, birds,
-      and small mammals. They are nocturnal and rely heavily on their camouflage
-      and heat-sensing ability to hunt. Though venomous, they are generally shy
-      and not aggressive toward humans unless provoked.
-      The Malabar pit viper is ovoviviparous, meaning females give birth to
-      live young rather than laying eggs. Its venom is hemotoxic, affecting blood
-      and tissues, but bites are rarely fatal with prompt medical treatment.
+      The Malabar pit viper is a venomous snake found in India.
     questions_and_answers:
-      - question: What is the scientific name of the Malabar pit viper?
-        answer: The scientific name of the Malabar pit viper is Craspedocephalus malabaricus.
       - question: Where is the Malabar pit viper found?
-        answer: It is endemic to the Western Ghats of southwestern India.
-      - question: What kind of habitat does the Malabar pit viper prefer?
-        answer: The Malabar pit viper prefers moist forested areas, particularly near streams and waterfalls.
-      - question: What does the Malabar pit viper eat?
-        answer: It feeds on frogs, lizards, birds, and small mammals.
+        answer: In the Western Ghats of southwestern India.
       - question: Is the Malabar pit viper venomous?
-        answer: Yes, it is venomous and has hemotoxic venom.
-      - question: How does the Malabar pit viper hunt its prey?
-        answer: It is an ambush predator that uses its camouflage and heat-sensing pit organs to locate prey.
-      - question: Is the Malabar pit viper dangerous to humans?
-        answer: It is venomous but not aggressive. Bites are rarely fatal with medical care.
-      - question: How does the Malabar pit viper reproduce?
-        answer: It is ovoviviparous, meaning it gives birth to live young.
-      - question: What are the identifying features of the Malabar pit viper?
-        answer: |
-          It has a broad, triangular head, vertical pupils, heat-sensing pits, and comes in various colors such
-          as green, brown, and yellow.
-document_outline: |
-  Information about the Malabar pit viper including habitat, appearance, diet, behavior,
-  reproduction, and venom.
-  document:
-  repo: [https://github.com/vyasgun/malabar_knowledge](https://github.com/vyasgun/malabar_knowledge)
-  commit: 915cea3e12d6545dfec2f1c117eb402312ddb059
+        answer: Yes, it has hemotoxic venom.
+      - question: What type of predator is the Malabar pit viper?
+        answer: It is an ambush predator.
+  - context: |
+      Malabar pit vipers inhabit moist forests, especially near streams.
+    questions_and_answers:
+      - question: What habitat does the Malabar pit viper prefer?
+        answer: Moist forests near streams and waterfalls.
+      - question: Why does the Malabar pit viper prefer moist environments?
+        answer: These environments support its prey and help in thermoregulation.
+      - question: Are Malabar pit vipers aquatic?
+        answer: No, but they live near water sources.
+  - context: |
+      This viper can appear green, brown, yellow, or red, aiding in camouflage.
+    questions_and_answers:
+      - question: What colors can the Malabar pit viper be?
+        answer: Green, brown, yellow, or red with complex patterns.
+      - question: How does the Malabar pit viper camouflage?
+        answer: Its coloration blends with forest surroundings.
+      - question: Why is camouflage important for this viper?
+        answer: It helps in both hunting and avoiding predators.
+  - context: |
+      The snake uses heat-sensing pits to hunt warm-blooded prey.
+    questions_and_answers:
+      - question: How does the Malabar pit viper detect prey?
+        answer: Using heat-sensing pit organs.
+      - question: What kind of prey does it eat?
+        answer: Frogs, lizards, birds, and small mammals.
+      - question: When does the Malabar pit viper usually hunt?
+        answer: At night; it is nocturnal.
+  - context: |
+      Malabar pit vipers give birth to live young, not eggs.
+    questions_and_answers:
+      - question: What is ovoviviparity?
+        answer: A reproductive method where eggs hatch inside the female, and she gives birth to live young.
+      - question: Does the Malabar pit viper lay eggs?
+        answer: No, it gives birth to live young.
+      - question: How is this different from egg-laying snakes?
+        answer: Ovoviviparous snakes retain eggs internally until they hatch.
